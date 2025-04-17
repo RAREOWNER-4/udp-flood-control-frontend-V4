@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://158.220.83.124';
+const API_BASE_URL = 'http://158.220.83.124:5000';
 
 function showPanel(panel) {
   document.getElementById('launch').style.display = (panel === 'launch') ? 'block' : 'none';
